@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+    /* CABEÇALHO */
+    .cabecalho__nav-lista li:not(:last-child) a {
+        display: none;
+    }
+
+    /* HERO */
+    .hero__container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .hero__conteudo {
+        width: 100%;
+    }
+
+    .hero__conteudo h1 {
+        font-size: 2.6rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .hero__conteudo p {
+        font-size: 1.2rem;
+    }
+
+    .hero__conteudo {
+        text-align: center;
+    }
+
+    .hero__links {
+        justify-content: center;
+    }
+
+    /* SOBRE */
+    .sobre__titulo {
+        text-align: center;
+    }
+
+    /* SKILLS E HOBBIES */
+    .skills__box-cards, .hobbies__box-cards {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* FORMACAO */
+    .formacao__box-cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .formacao__card {
+        width: 100%;
+    }
+
+    /* PROJETOS */
+    .projetos__projeto {
+        flex-direction: column;
+    }
+
+    .projetos__projeto img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    /* CONTATO */
+    .contato__box-img {
+        display: none;
+    }
+
+    .formulario__container button {
+        align-self: center;
+    }
+
+    .contato__content h2, .contato__content p {
+        text-align: center;
+    }
+
+    section#contato 
+    {
+        padding-bottom: 100px;
+    }
+    
+}
